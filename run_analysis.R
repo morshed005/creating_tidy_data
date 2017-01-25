@@ -63,3 +63,7 @@ DataSet_4 <- DataSet_3
 
 DataSet_5 <- aggregate(. ~activityType + subjectId, DataSet_4, mean)
 DataSet_5 <-  DataSet_5[c("subjectId", "activityType", names(DataSet_5)[-c(1:2)])]
+
+## writing the tidy data set to a text file
+
+write.table(x = DataSet_5, file = "tidy_data.txt", row.names = F)
