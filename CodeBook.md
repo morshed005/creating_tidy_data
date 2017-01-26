@@ -3,12 +3,18 @@
 This code book summarizes the resulting data fields in `tidy_data.txt`. 
 
 ## Variables
+
+### DataSets
 * 'DataSet_1' is the required dataset in step 1
 * 'DataSet_2' is the required dataset in step 2
 * 'DataSet_3' is the required dataset in step 3
 * 'DataSet_4' is the required dataset in step 4. Data was already with descriptive columnNames. No change was made
 * 'DataSet_5' is the required dataset in step 5
 
+### Other variables
+* x_train, x_test, y_train, y_test - data from X_train.txt, X_test.txt, y_train.txt, y_test.txt respectively
+* features - features from features.txt
+* activityLabels - 6 different activity labels from activity_labels.txt
 
 ## Identifiers
 
