@@ -61,8 +61,8 @@ DataSet_4 <- DataSet_3
 
 ##  data set with the average of each variable for each activity and each subject.
 
-DataSet_5 <- aggregate(. ~activityType + subjectId, DataSet_4, mean)
-DataSet_5 <-  DataSet_5[c("subjectId", "activityType", names(DataSet_5)[-c(1:2)])]
+load(dplyr)
+DataSet_5 <- DataSet_4 %>% group_by(subjectId, activityType) %>% summarise_all(mean)
 
 ## writing the tidy data set to a text file
 
