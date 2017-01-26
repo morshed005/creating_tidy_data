@@ -1,6 +1,14 @@
 # Code Book
 
-This code book summarizes the resulting data fields in `tidy_data.txt`.
+This code book summarizes the resulting data fields in `tidy_data.txt`. 
+
+## Variables
+* 'DataSet_1' is the required dataset in step 1
+* 'DataSet_2' is the required dataset in step 2
+* 'DataSet_3' is the required dataset in step 3
+* 'DataSet_4' is the required dataset in step 4. Data was already with descriptive columnNames. No change was made
+* 'DataSet_5' is the required dataset in step 5
+
 
 ## Identifiers
 
